@@ -1,2 +1,2 @@
-urllib3[socks]==1.0
-numpy==1.0
+urllib3[socks]==2.6.3
+numpy==1.16.1
