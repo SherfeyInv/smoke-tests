@@ -4,13 +4,21 @@
 #
 #    pip-compile
 #
+argon2-cffi==25.1.0
+    # via django
+argon2-cffi-bindings==25.1.0
+    # via argon2-cffi
 asgiref==3.5.2
     # via django
+cffi==2.0.0
+    # via argon2-cffi-bindings
 django==3.2.14
     # via -r requirements.in
 numpy==1.23.0
     # via -r requirements.in
+pycparser==3.0
+    # via cffi
 pytz==2022.1
     # via django
-sqlparse==0.4.2
+sqlparse==0.5.4
     # via django
